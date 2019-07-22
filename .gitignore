@@ -1,0 +1,17 @@
+# Intellij
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# Eclipse
+.classpath
+.project
+.settings
+
+# Certifcates
+*.csr
+*.jks
+*.p12
+*.pem
+*.pfx
