@@ -20,6 +20,7 @@ the 2nd argument is used to set the filename of the certificate
 
 ### Install self-signed certificates for local testing only
 
+For Windows:
  - Run certmgr.msc
  - At 'Trusted Root Certification Authorities > Certificates' 
  - Right-click > All-tasks > import > select the .pfx/.p12 file you created

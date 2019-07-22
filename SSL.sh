@@ -26,6 +26,6 @@ then
 fi
 
 openssl req -newkey rsa:2048 -new -nodes -x509 -days 3650 -keyout key.pem -out cert.pem -config ssl.conf -extensions v3_req &&
-openssl pkcs12 -export -out "$certificate" -in cert.pem -inkey key.pem -passin pass:password -passout pass:password
+openssl pkcs12 -export -out "$certificate" -in cert.pem -inkey key.pem -passin pass:password -passout pass:password -name shopserver
 
 echo "certificate found at $certificate"
